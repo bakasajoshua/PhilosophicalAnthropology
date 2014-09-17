@@ -1,4 +1,4 @@
-<?php echo "<pre>";print_r($mail);echo "</pre>";exit; ?>
+<?php //echo "<pre>";print_r($mails);echo "</pre>";exit; ?>
 <!DOCTYPE html>
 <html>
     <head>

@@ -325,9 +325,9 @@
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">BIF II Yr Student</span>
                 </div>
-                <img src="<?php echo base_url() ?>assets/_include/img/profile/profile-03.jpg" alt="Joshua Nyeole Bakasa">
+                <img src="<?php echo base_url() ?>assets/_include/img/profile/profile-3.jpg" alt="Joshua Neyole Bakasa">
             </div>
-            <h3 class="profile-name">Joshua Nyeole Bakasa</h3>
+            <h3 class="profile-name">Joshua Neyole Bakasa</h3>
             <p class="profile-description">
             Joshua Bakasa was a crucial part of the making of this beautiful system,he took part in the making of fundamentals in the system and knows his way with words. If code had a human entity,it would be Joshua. 
             <div class="social">

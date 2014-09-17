@@ -95,9 +95,51 @@ class Admin extends MY_Controller
 		// $this->load->view('instructors_view');
 	}
 
-	public function edit_instructor()
+	public function edit_instructor($table)
 	{
-		
+		$this->form_validation->set_rules('editfname', 'First Name', 'trim|required');
+		$this->form_validation->set_rules('editsname', 'Second Name', 'trim|required');
+		$this->form_validation->set_rules('editonames', 'Other Name', 'trim|required');
+		$this->form_validation->set_rules('email', 'Email', 'trim|required');
+		$this->form_validation->set_rules('editstatus', 'Status', 'trim|required');
+
+		if ($this->form_validation->run() == FALSE) 
+		{
+			echo "The form validation process was failed!!!";
+            $this->members();
+		} else 
+		{
+			// echo "The form validation was very successfull";
+            
+			$this->admin_model->update($table);
+			
+			$this->instructors();
+				
+		}
+	}
+
+	public function edit_members($table)
+	{
+		$this->form_validation->set_rules('editfname', 'First Name', 'trim|required');
+		$this->form_validation->set_rules('editsname', 'Second Name', 'trim|required');
+		$this->form_validation->set_rules('editonames', 'Other Name', 'trim|required');
+		$this->form_validation->set_rules('email', 'Email', 'trim|required');
+		$this->form_validation->set_rules('editstatus', 'Status', 'trim|required');
+
+		if ($this->form_validation->run() == FALSE) 
+		{
+			echo "The form validation process was failed!!!";
+            $this->members();
+		} else 
+		{
+			// echo "The form validation was very successfull";
+            
+			$this->admin_model->update($table);
+			
+			$this->members();
+				
+		}
+
 	}
 
 	public function email_details()

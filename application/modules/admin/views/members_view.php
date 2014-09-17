@@ -505,7 +505,7 @@
                         <h5 class="modal-title">Edit Instructor</h5>
                     </div>
                     <div class="modal-body" style="padding-bottom:0px;">    
-                    <?php echo form_open(base_url().'admin/edit_instructor'); ?>
+                    <?php echo form_open(base_url().'admin/edit_members/members'); ?>
                         <input type="hidden" id="editid" name="editid" />
                         <div class="input-group" style="width: 100%;padding:4px;">
                                 <span class="input-group-addon" style="width: 40%;"> First Name:</span>
@@ -522,14 +522,17 @@
                         
                         <div class="input-group" style="width: 100%;padding:4px;">
                                 <span class="input-group-addon" style="width: 40%;"> email:</span>
-                                <input id="editemail" name="email" class="textfield form-control" />    
+                                <input id="editemail" name="email" class="textfield form-control" readonly />    
                         </div>
                         
                         <div class="input-group" style="width: 100%;padding:4px;">
                             <span class="input-group-addon" style="width: 40%;"> Status :</span>
                             <span class="input-group-addon" style="width: 30%;"><input type="radio" name="editstatus" value="1">  Active  <span style="font-size: 1.4em;color: #3e8f3e;" class="glyphicon glyphicon-ok-sign"></span></input></span>
                             <span class="input-group-addon" style="width: 30%;"><input type="radio" name="editstatus" value="2">  Deactivate <span style="font-size: 1.4em;color: #eb9316;" class="glyphicon glyphicon-remove-sign"></span></input></span>
-                        </div>              
+                        </div>  
+                        <div style="margin-left:600px;">
+                            <button type="submit" class="btn btn-default">Submit Changes</button>
+                        </div>            
                         <div class="modal-footer" style="height:11px;padding-top:11px;">
                             <?php echo $this->config->item("copyrights");?>
                         </div> 

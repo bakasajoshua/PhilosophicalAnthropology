@@ -366,11 +366,20 @@
                     <div class="row">
                                                
                     </div><!-- /.row -->
+                    
 
                     <!-- Main row -->
                     <div class="row">
+                        <div style="float:right;margin-right:106PX;">
+                            <!-- <a href="javascript:void(null);" onclick="add_instructor();"> -->
+                                <button class="btn btn-default" data-toggle="modal" data-target="#addinstructor">
+                                    <i class="ion ion-person-add"></i>Add Instructors
+                                </button>
+                            <!-- </a> -->
+                        </div>
                         <!-- Left col -->
                         <section class="col-lg-11 connectedSortable">                            
+                            
 
                             <!-- Calendar -->
                             <div class="box box-solid ">
@@ -441,7 +450,7 @@
                                                         </td>
                                                         <td>
                                                             <center>
-                                                            <a href="javascript:void(null);" onclick="edit_instructor(<?php echo $values['id'];?>,'<?php echo $values['first_name'];?>','<?php echo $values['second_name'];?>','<?php echo $values['institution'];?>','<?php echo $values['location'];?>','<?php echo $values['email'];?>','<?php echo $values['phone'];?>','<?php echo $values['status'];?>')"><span class="glyphicon glyphicon-pencil" style="color: #70D3E9;"></span></a>
+                                                            <a href="javascript:void(null);" data-toggle="modal" onclick="edit_instructor(<?php echo $values['id'];?>,'<?php echo $values['first_name'];?>','<?php echo $values['second_name'];?>','<?php echo $values['institution'];?>','<?php echo $values['location'];?>','<?php echo $values['email'];?>','<?php echo $values['phone'];?>','<?php echo $values['status'];?>')"><span class="glyphicon glyphicon-pencil" style="color: #70D3E9;"></span></a>
                                                             </center>
                                                         </td>
                                                     </tr>   
@@ -561,7 +570,7 @@
                 <h5 class="modal-title">Edit Instructor</h5>
             </div>
             <div class="modal-body" style="padding-bottom:0px;">    
-            <?php echo form_open(base_url().'admin/edit_instructor'); ?>
+            <?php echo form_open(base_url().'admin/edit_instructor/instructors'); ?>
                 <div class="input-group" style="width: 100%;padding:4px;">
                         <span class="input-group-addon" style="width: 40%;"> First Name:</span>
                         <input id="editfname" name="editfname" class="textfield form-control" />    
@@ -590,7 +599,10 @@
                     <span class="input-group-addon" style="width: 40%;"> Status :</span>
                     <span class="input-group-addon" style="width: 30%;"><input type="radio" name="editstatus" value="1">  Active  <span style="font-size: 1.4em;color: #3e8f3e;" class="glyphicon glyphicon-ok-sign"></span></input></span>
                     <span class="input-group-addon" style="width: 30%;"><input type="radio" name="editstatus" value="2">  Deactivate <span style="font-size: 1.4em;color: #eb9316;" class="glyphicon glyphicon-remove-sign"></span></input></span>
-                </div>              
+                </div>   
+                <div>
+                    <button type="submit" class="btn btn-default">Submit changes</button>
+                </div>           
                 <div class="modal-footer" style="height:11px;padding-top:11px;">
                     <?php echo $this->config->item("copyrights");?>
                 </div> 
@@ -641,11 +653,8 @@
             $("#addinstructor").modal("show");
         }
 
-      
-        }
-
         function edit_instructor(id,fname,sname,institution,location,email,phone,status){
-
+            alert(id,fname,sname);
             var str = "#tr_"+id;
 
             var row = $(str).html();

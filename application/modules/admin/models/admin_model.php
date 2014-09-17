@@ -226,5 +226,34 @@ class Admin_model extends MY_Model
     	}
     	return $unreadErrors;
     }
+
+    function update($table)
+    {
+    	$id = $this->input->post('editid');
+    	$status	= $this->input->post('editstatus');
+		// echo $id; die();
+
+		$sql   		=	"UPDATE  'users'
+							SET 
+								`status`		=	'$status'
+							WHERE  
+								`id`='$id'
+						";
+
+		$this->db->query($sql);
+
+		if ($table == "instructors") {
+			$sql   		=	"UPDATE  '$table'
+							SET 
+								`status`		=	'$status'
+							WHERE  
+								`id`='$id'
+						";						
+
+		$this->db->query($sql);
+		}
+	
+		
+    }
 }
 ?>

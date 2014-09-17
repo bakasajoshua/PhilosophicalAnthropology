@@ -52,6 +52,7 @@
 									<li>What is our core; what really lies within our hearts.</li>
 								</ul>
 								<p>Facts of life is that as humans we received the gift of life as we are born. In this life there is the physical level(animal level) and personal level.</p>
+								<img src="<?php echo base_url().'assets/images/images(4).jpg';?>">
 								<p>At the physical level there is:</p>
 								<ul>
 									<li>Male</li>
@@ -80,6 +81,7 @@
 
 							<div id="attraction">
 							<br>
+							<img src="<?php echo base_url().'assets/images/images(5).jpg';?>">
 							<h4>
 									Power of attraction
 							</h4>
@@ -90,6 +92,7 @@
 								<h4>Understanding the power of attraction</h4>
 								<p>The power of the <u>female</u> generates physical desire in the male: once satisfied he withdraws into that satisfaction, into himself, until the desire is aroused again. The power of the <u>feminine</u> generates respect that can grow, even to a form of veneration, which draws a man out of himself and inspires him to higher things<a href="www.cormacburke.or.ke" target="blank">(C. Burke)</a></p>
 								<h5>Some of the Masculine and feminine Identity are as below</h5>
+								<img src="<?php echo base_url().'assets/images/images(2).jpg';?>">
 								<table>
 									<tr>
 										<td>
@@ -135,6 +138,7 @@
 										</td>
 									</tr>
 								</table>
+								<img src="<?php echo base_url().'assets/images/images.jpg';?>">
 								<p>For a person`s personal growth, one needs to be aware of their own sexual identity, male or female. Not only to know it but also to accept it. After acceptance then integrate it into their own personality. He/she should then be aware of the sexual identity of the other half of the human race(male/female). They should know it then accept and appreciate it and learn from it. This is because neither man nor woman alone offers a full, perfect model of humanity. Each is a partial model of human being, we need the other half to give the full picture about what it means to be truly human, to create a truly human society!</p>
 								<p>The <strong>Challenge</strong> comes:-
 									<ul> 
@@ -157,6 +161,7 @@
 							<h4>
 								Giving oneself or lending oneself
 							</h4>
+							<img src="<?php echo base_url().'assets/images/images(3).jpg';?>">
 								<h4>Who am I</h4>
 								<p>A woman in body and soul is capable of loving others spiritually; this is at the level of the mind/ will/ heart and physically; this is by doing things that do not benefit oneself but others. Woman who is capable of giving herself totally to a man in body and soul.</p>
 								<p>A man in body and soul is capable of loving others spiritually; this is at the level of the mind/ will/ heart. Physically he can give himself by doing things for the benefit of other people and not himself. A man who is capable of giving himself totally to a woman in body and soul.</p>

@@ -46,7 +46,8 @@
 				<div id="content">
 
 					<div id="nature">
-					<br>					
+					<br>			
+					<img src="<?php echo base_url().'assets/images/free1.jpg';?>">		
 					<h4>Nature of Freedom</h4>
 						<p>If we stop to think for a moment we will realize that we have all had the experience of freedom; every time we need to choose between one thing and another (one dish or another, one film or another) we are exercising our freedom and we are taking a decision which affects ourselves as persons.</p>
 						<p>Freedom is a property of the human being as such; not just the will is free, rather the whole person is free. The whole person will taste the chosen dish, the whole person will watch the chosen movie. Freedom is the characteristic of the human person that permits him to direct his own acts towards attaining a given goal that he has chosen thanks to the fact that he has intellect and will.</p>
@@ -70,6 +71,7 @@
 
 					<div id="types">
 				    <br>
+				    <img src="<?php echo base_url().'assets/images/free2.jpg';?>">
 					<h4>Types of Freedom</h4>
 						<p>Philosophers have distinguished what they call the four dimensions of freedom: fundamental freedom and freedom for choice, which characterize the person as such, along with moral freedom and social freedom which are variable according to the personal and social circumstances.</p>
 						<p><strong>Fundamental or constitutive freedom:</strong> A characteristic of the human person as such, by which he is open to the real world, can know and love it and move himself, self-determine himself, to tend towards some good thing freely.</p>
@@ -88,6 +90,7 @@
 							<li><p>This fundamental freedom grows and develops if we use it to carry out good free acts that help us actualize ourselves as persons by committing ourselves freely to good things; our personal dimension (spiritual soul, etc) grows as we use our personal capacities well.</p></li>
 							<li><p>In this way, we become more human as people and in our acts, and our freedom becomes stronger; capacity to know the truth, love the real good, move self towards real goods becomes stronger, it gets easier to live like this; as we use these capacities in a more perfect way, they develop and we becomes better persons. </p></li>
 						</ul>
+						<img src="<?php echo base_url().'assets/images/free0.jpg';?>">
 						<p><strong>Freedom to choose:</strong> Capacity to decide how to act in order to actually determine ourselves, moving ourselves towards a good which will bring us closer to self fulfillment  (actually determine oneself to be oneself in fact).</p>
 						<ul>
 							<li><p>The existence of this form of freedom is shown in the fact that man needs to choose from various possibilities in order to actually determine himself to move towards some specific good and so advance towards or away from self-realization.</p></li>
@@ -111,6 +114,7 @@
 								</ul>
 							</li>
 						</ul>
+						<img src="<?php echo base_url().'assets/images/free4.jpg';?>">
 						<p><strong>Moral freedom: </strong>the real, acquired freedom of a human person, achieved due to good self realization through good free acts which have given rise to the personal life project (coherent person and life).</p>
 						<ul>
 							<li><p>Moral freedom, the acquired freedom of the person and their acts, if it continues growing, leads to the fullness of man’s freedom in his person and his acts.</p></li>
@@ -140,7 +144,7 @@
 							<li><p>Social freedom: a given situation in society that reflects the consequences of using our freedom, which necessarily brings limitations with it because our activities have repercussions in ourselves and in others.</p></li>
 						</ul>
 					</div>
-					
+					<img src="<?php echo base_url().'assets/images/free1.jpg';?>">
 					<div id="conclusion">
 					<br>
 					<h4>Conclusion</h4>
@@ -151,11 +155,8 @@
 					</div>
 
 				</div>
-
-					<div id="aside" class="aside">
-						<h5>Articles on Human Freedom</h5>
-						<p><a href="">Article by </a></p>
-					</div>
+<img src="<?php echo base_url().'assets/images/free3.jpg';?>">
+					
 				</div>
 			</div>
 

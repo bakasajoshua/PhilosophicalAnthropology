@@ -654,7 +654,7 @@
         }
 
         function edit_instructor(id,fname,sname,institution,location,email,phone,status){
-            alert(id,fname,sname);
+            
             var str = "#tr_"+id;
 
             var row = $(str).html();

@@ -72,10 +72,10 @@
 							<h4>
 								Elements of our masculine/feminine identity
 							</h4>
-								<p><strong>Relational: </strong></p>
+								<p><strong>Relational: </strong> as humans we are social beings who need each other for our own survival. There is a popular saying that goes `No man is an island`, this demonstrates the relationess of the human nature. As humans, we live in families as the basic unit of the society.</p>
 								<p><strong>Diversity: </strong> is a concept that encompases acceptance and respect. It means understanding that each individual is unique. It is about understanding each other and moving beyond simple tolerance to embracing and celebrating the rich dimensions of diversity contained within each individual<a href="http://gladstone.uoregon.edu/~asuomca/diversityinit/definition.html" target="blank">(gladstone, 2014)</a>.</p>
-								<p><strong>Creativity: </strong></p>
-								<p><strong>Complementarity: </strong> We need each other to be fully humna as men and women</p>
+								<p><strong>Creativity: </strong> as humnan beings, whether men or women, we have the ability to innovate, or come up with new ideas that can change the world around us. Unlike animals, this gives us more control of our destiny.</p>
+								<p><strong>Complementarity: </strong> We need each other to be fully humna as men and women. Men are superior to women on the physical aspect, whereas women are more superior to men in the spiritual aspect. This is not to show that either is superior but to complement each other in their less strong areas.</p>
 							</div>
 
 							<div id="attraction">

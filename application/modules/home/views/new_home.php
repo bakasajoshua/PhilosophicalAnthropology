@@ -358,7 +358,7 @@
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Catherine Dean</span>
                 </div>
-                <img src="<?php echo base_url() ?>assets/_include/img/profile/dean.jpg" alt="Catherine Dean">
+                <img src="<?php echo base_url() ?>assets/_include/img/profile/profile-03.jpg" alt="Catherine Dean">
         </div>
             </div>
             <h3 class="profile-name margin_left">Catherine Dean</h3>
